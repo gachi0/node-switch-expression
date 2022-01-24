@@ -3,7 +3,7 @@
 ## Basic usage
 ```js
 // モジュールの読み込み(以下省略します)
-const Switch = require("Switch");
+const Switch = require("node-switch-expression");
 
 const gamemode = "easy";
 // コンストラクタの第1引数には、Switchの一致式 (`switch (value){ ...` のvalueにあたる部分) を指定します。
@@ -64,7 +64,7 @@ console.log(numInfo.all()); // ["negative number", "even"]
 
 ## 明示的に型を指定する場合(TypeScript)
 ```ts
-import Switch from "Switch";
+import Switch from "node-switch-expression";
 
 const statusCode = 404;
 const message = new Switch<number, string | null>(statusCode, null)

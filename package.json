@@ -1,0 +1,24 @@
+{
+  "name": "switch-expression",
+  "version": "0.1.0",
+  "description": "",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "keywords": [
+    "switch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gachi0/node-switch-expression"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GACHI",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "typescript": "^4.5.5"
+  }
+}

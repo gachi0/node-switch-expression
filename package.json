@@ -1,5 +1,5 @@
 {
-  "name": "switch-expression",
+  "name": "node-switch-expression",
   "version": "0.1.0",
   "description": "",
   "main": "out/index.js",
@@ -15,7 +15,7 @@
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "GACHI",
+  "author": "gachi0",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.10",

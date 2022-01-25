@@ -1,6 +1,6 @@
 {
   "name": "node-switch-expression",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "",
   "main": "out/index.js",
   "types": "out/index.d.ts",

@@ -16,7 +16,7 @@ export default class Switch<T, R> {
      * valueと一致式が一致した場合、結果にresultが追加されます。
      */
     case(value: T, result: R) {
-        swicth (this.value) {
+        switch (this.value) {
             case value: this.results.push(result);
         }
         return this;

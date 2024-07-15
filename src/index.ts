@@ -26,7 +26,15 @@ export default class Switch<T, R> {
      * valuesの中に一致式と一致するものがあった場合、結果にresultが追加されます。
      */
     cases(values: T[], result: R) {
-        if (values.includes(this.value)) this.results.push(result);
+        let match = false;
+        for (const value of values) {
+            switch (this.value) {
+                case value: match = true;
+            }
+        }
+        if (match) {
+            this.results.push(result);
+        }
         return this;
     }
 
